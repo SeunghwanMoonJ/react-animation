@@ -143,13 +143,11 @@ function App() {
       <Wrapper>
         <Grid>
           <Box
+            style={{ originX: 1, originY: 1 }}
             whileHover={{
               scaleX: 1.1,
-              translateX: "-10px",
               scaleY: 1.1,
-              translateY: "-8px",
-              translateZ: "0",
-              transition: { duration: 0.2 },
+              transition: { duration: 0.2 }
             }}
             onClick={() => setId("1")}
             key="1"
@@ -158,12 +156,11 @@ function App() {
           <Box key="2">{!toggle ? <Circle layoutId="circle" /> : null}</Box>
           <Box key="3">{toggle ? <Circle layoutId="circle" /> : null}</Box>
           <Box
+            style={{ originX: 0, originY: 0 }}
             whileHover={{
               scaleX: 1.1,
-              translateX: "10px",
               scaleY: 1.1,
-              translateY: "8px",
-              transition: { duration: 0.2 },
+              transition: { duration: 0.2 }
             }}
             onClick={() => setId("4")}
             key="4"
