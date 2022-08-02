@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/SeunghwanMoonJ/react-animation/static/js/main.e522ad41.js",
-    "index.html": "/SeunghwanMoonJ/react-animation/index.html",
-    "main.e522ad41.js.map": "/SeunghwanMoonJ/react-animation/static/js/main.e522ad41.js.map"
+    "main.js": "/react-animation/static/js/main.16dc4424.js",
+    "index.html": "/react-animation/index.html",
+    "main.16dc4424.js.map": "/react-animation/static/js/main.16dc4424.js.map"
   },
   "entrypoints": [
-    "static/js/main.e522ad41.js"
+    "static/js/main.16dc4424.js"
   ]
 }
